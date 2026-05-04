@@ -14,7 +14,10 @@ No package install or build step is required.
 
 ## Run Locally
 
-Open `Extraction Flow.html` in your browser.
+For the simplest preview, open `Extraction Flow standalone.html` in your browser.
+
+You can also open `Extraction Flow.html`. This version keeps the app split across
+separate JSX and CSS files, which is easier for editing.
 
 If your browser blocks local file loading, serve the folder with a small static server:
 
@@ -28,9 +31,16 @@ Then open:
 http://localhost:8000/Extraction%20Flow.html
 ```
 
+Or open the standalone version:
+
+```text
+http://localhost:8000/Extraction%20Flow%20standalone.html
+```
+
 ## Project Structure
 
 - `Extraction Flow.html` - browser entry point
+- `Extraction Flow standalone.html` - self-contained browser preview
 - `app.jsx` - main app component
 - `data.jsx` - demo data
 - `styles.css` - app styling
